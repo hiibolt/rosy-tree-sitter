@@ -5,21 +5,13 @@
 module.exports = grammar({
   name: 'rosy',
 
-  extras: $ => [
-    /\s/,
-    $.comment,
-  ],
-
-  word: $ => $.identifier,
+  extras: $ => [/\s/],
 
   rules: {
     source_file: $ => repeat($._item),
 
     _item: $ => choice(
-      $.keyword,
-      $.builtin_function,
-      $.type_name,
-      $.boolean,
+      $.comment,
       $.number,
       $.string,
       $.operator,
@@ -27,6 +19,7 @@ module.exports = grammar({
       $.identifier,
     ),
 
+    // Nested {..} comments
     comment: $ => seq(
       '{',
       repeat(choice(
@@ -36,163 +29,27 @@ module.exports = grammar({
       '}',
     ),
 
-    keyword: _ => choice(
-      choice('ARGGET', 'argget'),
-      choice('BEGIN', 'begin'),
-      choice('BREAK', 'break'),
-      choice('CLOSEF', 'closef'),
-      choice('CPUSEC', 'cpusec'),
-      choice('DACLIW', 'dacliw'),
-      choice('DACQLC', 'dacqlc'),
-      choice('DADER', 'dader'),
-      choice('DADIU', 'dadiu'),
-      choice('DADMU', 'dadmu'),
-      choice('DAEPS', 'daeps'),
-      choice('DAEST', 'daest'),
-      choice('DAINI', 'daini'),
-      choice('DAINT', 'daint'),
-      choice('DANORO', 'danoro'),
-      choice('DANORS', 'danors'),
-      choice('DANOT', 'danot'),
-      choice('DAPEA', 'dapea'),
-      choice('DAPEE', 'dapee'),
-      choice('DAPEP', 'dapep'),
-      choice('DAPEW', 'dapew'),
-      choice('DAPLU', 'daplu'),
-      choice('DAPRV', 'daprv'),
-      choice('DAREA', 'darea'),
-      choice('DAREV', 'darev'),
-      choice('DASCL', 'dascl'),
-      choice('DASGN', 'dasgn'),
-      choice('DATRN', 'datrn'),
-      choice('ELSE', 'else'),
-      choice('ELSEIF', 'elseif'),
-      choice('END', 'end'),
-      choice('ENDFIT', 'endfit'),
-      choice('ENDFUNCTION', 'endfunction'),
-      choice('ENDIF', 'endif'),
-      choice('ENDLOOP', 'endloop'),
-      choice('ENDPLOOP', 'endploop'),
-      choice('ENDPROCEDURE', 'endprocedure'),
-      choice('ENDWHILE', 'endwhile'),
-      choice('FIT', 'fit'),
-      choice('FUNCTION', 'function'),
-      choice('IF', 'if'),
-      choice('IMUNIT', 'imunit'),
-      choice('LDET', 'ldet'),
-      choice('LEV', 'lev'),
-      choice('LINV', 'linv'),
-      choice('LOOP', 'loop'),
-      choice('LSLINE', 'lsline'),
-      choice('MBLOCK', 'mblock'),
-      choice('MEMDPV', 'memdpv'),
-      choice('MEMFRE', 'memfre'),
-      choice('MTREE', 'mtree'),
-      choice('OPENF', 'openf'),
-      choice('OPENFB', 'openfb'),
-      choice('OS', 'os'),
-      choice('PLOOP', 'ploop'),
-      choice('PNPRO', 'pnpro'),
-      choice('POLVAL', 'polval'),
-      choice('PROCEDURE', 'procedure'),
-      choice('PWTIME', 'pwtime'),
-      choice('QUIT', 'quit'),
-      choice('READ', 'read'),
-      choice('READB', 'readb'),
-      choice('READM', 'readm'),
-      choice('RECST', 'recst'),
-      choice('RERAN', 'reran'),
-      choice('RKCO', 'rkco'),
-      choice('SCRLEN', 'scrlen'),
-      choice('SLEEPM', 'sleepm'),
-      choice('STCRE', 'stcre'),
-      choice('SUBSTR', 'substr'),
-      choice('VARIABLE', 'variable'),
-      choice('VEDOT', 'vedot'),
-      choice('VELGET', 'velget'),
-      choice('VELSET', 'velset'),
-      choice('VEUNIT', 'veunit'),
-      choice('VEZERO', 'vezero'),
-      choice('WHILE', 'while'),
-      choice('WRITE', 'write'),
-      choice('WRITEB', 'writeb'),
-      choice('WRITEM', 'writem')
-    ),
-
-    builtin_function: _ => choice(
-      choice('ABS', 'abs'),
-      choice('ACOS', 'acos'),
-      choice('ASIN', 'asin'),
-      choice('ATAN', 'atan'),
-      choice('CMPLX', 'cmplx'),
-      choice('CONJ', 'conj'),
-      choice('CONS', 'cons'),
-      choice('COS', 'cos'),
-      choice('COSH', 'cosh'),
-      choice('ERF', 'erf'),
-      choice('EXP', 'exp'),
-      choice('IMAG', 'imag'),
-      choice('INT', 'int'),
-      choice('ISRT', 'isrt'),
-      choice('ISRT3', 'isrt3'),
-      choice('LCD', 'lcd'),
-      choice('LCM', 'lcm'),
-      choice('LDA', 'lda'),
-      choice('LENGTH', 'length'),
-      choice('LLO', 'llo'),
-      choice('LOG', 'log'),
-      choice('LRE', 'lre'),
-      choice('LST', 'lst'),
-      choice('LTRIM', 'ltrim'),
-      choice('LVE', 'lve'),
-      choice('NINT', 'nint'),
-      choice('NORM', 'norm'),
-      choice('REAL', 'real'),
-      choice('SIN', 'sin'),
-      choice('SINH', 'sinh'),
-      choice('SQR', 'sqr'),
-      choice('SQRT', 'sqrt'),
-      choice('TAN', 'tan'),
-      choice('TANH', 'tanh'),
-      choice('TRIM', 'trim'),
-      choice('TYPE', 'type'),
-      choice('VARMEM', 'varmem'),
-      choice('VARPOI', 'varpoi'),
-      choice('VMAX', 'vmax'),
-      choice('VMIN', 'vmin'),
-      choice('WERF', 'werf')
-    ),
-
-    type_name: _ => choice(
-      choice('RE', 're'),
-      choice('ST', 'st'),
-      choice('LO', 'lo'),
-      choice('CM', 'cm'),
-      choice('VE', 've'),
-      choice('DA', 'da'),
-      choice('CD', 'cd')
-    ),
-
-    boolean: _ => choice(
-      choice('TRUE', 'true'),
-      choice('FALSE', 'false')
-    ),
-
+    // Numeric literals
     number: _ => /\d+(\.\d+)?/,
 
+    // String literals (single- and double-quoted)
     string: _ => choice(
       /"[^"]*"/,
       /'(?:''|[^'])*'/,
     ),
 
+    // Operators (multi-char first to avoid prefix ambiguity)
     operator: _ => choice(
       ':=', '==', '!=', '<>', '<=', '>=',
       '+', '-', '*', '/', '^', '%', '|', '&', '#',
       '=', '<', '>', '!',
     ),
 
+    // Punctuation
     punctuation: _ => choice(';', '(', ')', '[', ']', ',', '.'),
 
+    // Identifiers — keywords, builtins, types, and variables all parse
+    // as this node; highlights.scm classifies them via #match? predicates.
     identifier: _ => /[a-zA-Z_][a-zA-Z0-9_]*/,
   },
 });
