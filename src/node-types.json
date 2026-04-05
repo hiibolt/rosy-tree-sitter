@@ -2,6 +2,7 @@
   {
     "type": "comment",
     "named": true,
+    "extra": true,
     "fields": {},
     "children": {
       "multiple": true,
@@ -33,10 +34,6 @@
       "multiple": true,
       "required": false,
       "types": [
-        {
-          "type": "comment",
-          "named": true
-        },
         {
           "type": "identifier",
           "named": true
@@ -154,6 +151,526 @@
     "named": false
   },
   {
+    "type": "ABS",
+    "named": false
+  },
+  {
+    "type": "ACOS",
+    "named": false
+  },
+  {
+    "type": "ARGGET",
+    "named": false
+  },
+  {
+    "type": "ASIN",
+    "named": false
+  },
+  {
+    "type": "ATAN",
+    "named": false
+  },
+  {
+    "type": "BEGIN",
+    "named": false
+  },
+  {
+    "type": "BREAK",
+    "named": false
+  },
+  {
+    "type": "CD",
+    "named": false
+  },
+  {
+    "type": "CLOSEF",
+    "named": false
+  },
+  {
+    "type": "CM",
+    "named": false
+  },
+  {
+    "type": "CMPLX",
+    "named": false
+  },
+  {
+    "type": "CONJ",
+    "named": false
+  },
+  {
+    "type": "CONS",
+    "named": false
+  },
+  {
+    "type": "COS",
+    "named": false
+  },
+  {
+    "type": "COSH",
+    "named": false
+  },
+  {
+    "type": "CPUSEC",
+    "named": false
+  },
+  {
+    "type": "DA",
+    "named": false
+  },
+  {
+    "type": "DACLIW",
+    "named": false
+  },
+  {
+    "type": "DACQLC",
+    "named": false
+  },
+  {
+    "type": "DADER",
+    "named": false
+  },
+  {
+    "type": "DADIU",
+    "named": false
+  },
+  {
+    "type": "DADMU",
+    "named": false
+  },
+  {
+    "type": "DAEPS",
+    "named": false
+  },
+  {
+    "type": "DAEST",
+    "named": false
+  },
+  {
+    "type": "DAINI",
+    "named": false
+  },
+  {
+    "type": "DAINT",
+    "named": false
+  },
+  {
+    "type": "DANORO",
+    "named": false
+  },
+  {
+    "type": "DANORS",
+    "named": false
+  },
+  {
+    "type": "DANOT",
+    "named": false
+  },
+  {
+    "type": "DAPEA",
+    "named": false
+  },
+  {
+    "type": "DAPEE",
+    "named": false
+  },
+  {
+    "type": "DAPEP",
+    "named": false
+  },
+  {
+    "type": "DAPEW",
+    "named": false
+  },
+  {
+    "type": "DAPLU",
+    "named": false
+  },
+  {
+    "type": "DAPRV",
+    "named": false
+  },
+  {
+    "type": "DAREA",
+    "named": false
+  },
+  {
+    "type": "DAREV",
+    "named": false
+  },
+  {
+    "type": "DASCL",
+    "named": false
+  },
+  {
+    "type": "DASGN",
+    "named": false
+  },
+  {
+    "type": "DATRN",
+    "named": false
+  },
+  {
+    "type": "ELSE",
+    "named": false
+  },
+  {
+    "type": "ELSEIF",
+    "named": false
+  },
+  {
+    "type": "END",
+    "named": false
+  },
+  {
+    "type": "ENDFIT",
+    "named": false
+  },
+  {
+    "type": "ENDFUNCTION",
+    "named": false
+  },
+  {
+    "type": "ENDIF",
+    "named": false
+  },
+  {
+    "type": "ENDLOOP",
+    "named": false
+  },
+  {
+    "type": "ENDPLOOP",
+    "named": false
+  },
+  {
+    "type": "ENDPROCEDURE",
+    "named": false
+  },
+  {
+    "type": "ENDWHILE",
+    "named": false
+  },
+  {
+    "type": "ERF",
+    "named": false
+  },
+  {
+    "type": "EXP",
+    "named": false
+  },
+  {
+    "type": "FALSE",
+    "named": false
+  },
+  {
+    "type": "FIT",
+    "named": false
+  },
+  {
+    "type": "FUNCTION",
+    "named": false
+  },
+  {
+    "type": "IF",
+    "named": false
+  },
+  {
+    "type": "IMAG",
+    "named": false
+  },
+  {
+    "type": "IMUNIT",
+    "named": false
+  },
+  {
+    "type": "INT",
+    "named": false
+  },
+  {
+    "type": "ISRT",
+    "named": false
+  },
+  {
+    "type": "ISRT3",
+    "named": false
+  },
+  {
+    "type": "LCD",
+    "named": false
+  },
+  {
+    "type": "LCM",
+    "named": false
+  },
+  {
+    "type": "LDA",
+    "named": false
+  },
+  {
+    "type": "LDET",
+    "named": false
+  },
+  {
+    "type": "LENGTH",
+    "named": false
+  },
+  {
+    "type": "LEV",
+    "named": false
+  },
+  {
+    "type": "LINV",
+    "named": false
+  },
+  {
+    "type": "LLO",
+    "named": false
+  },
+  {
+    "type": "LO",
+    "named": false
+  },
+  {
+    "type": "LOG",
+    "named": false
+  },
+  {
+    "type": "LOOP",
+    "named": false
+  },
+  {
+    "type": "LRE",
+    "named": false
+  },
+  {
+    "type": "LSLINE",
+    "named": false
+  },
+  {
+    "type": "LST",
+    "named": false
+  },
+  {
+    "type": "LTRIM",
+    "named": false
+  },
+  {
+    "type": "LVE",
+    "named": false
+  },
+  {
+    "type": "MBLOCK",
+    "named": false
+  },
+  {
+    "type": "MEMDPV",
+    "named": false
+  },
+  {
+    "type": "MEMFRE",
+    "named": false
+  },
+  {
+    "type": "MTREE",
+    "named": false
+  },
+  {
+    "type": "NINT",
+    "named": false
+  },
+  {
+    "type": "NORM",
+    "named": false
+  },
+  {
+    "type": "OPENF",
+    "named": false
+  },
+  {
+    "type": "OPENFB",
+    "named": false
+  },
+  {
+    "type": "OS",
+    "named": false
+  },
+  {
+    "type": "PLOOP",
+    "named": false
+  },
+  {
+    "type": "PNPRO",
+    "named": false
+  },
+  {
+    "type": "POLVAL",
+    "named": false
+  },
+  {
+    "type": "PROCEDURE",
+    "named": false
+  },
+  {
+    "type": "PWTIME",
+    "named": false
+  },
+  {
+    "type": "QUIT",
+    "named": false
+  },
+  {
+    "type": "RE",
+    "named": false
+  },
+  {
+    "type": "READ",
+    "named": false
+  },
+  {
+    "type": "READB",
+    "named": false
+  },
+  {
+    "type": "READM",
+    "named": false
+  },
+  {
+    "type": "REAL",
+    "named": false
+  },
+  {
+    "type": "RECST",
+    "named": false
+  },
+  {
+    "type": "RERAN",
+    "named": false
+  },
+  {
+    "type": "RKCO",
+    "named": false
+  },
+  {
+    "type": "SCRLEN",
+    "named": false
+  },
+  {
+    "type": "SIN",
+    "named": false
+  },
+  {
+    "type": "SINH",
+    "named": false
+  },
+  {
+    "type": "SLEEPM",
+    "named": false
+  },
+  {
+    "type": "SQR",
+    "named": false
+  },
+  {
+    "type": "SQRT",
+    "named": false
+  },
+  {
+    "type": "ST",
+    "named": false
+  },
+  {
+    "type": "STCRE",
+    "named": false
+  },
+  {
+    "type": "SUBSTR",
+    "named": false
+  },
+  {
+    "type": "TAN",
+    "named": false
+  },
+  {
+    "type": "TANH",
+    "named": false
+  },
+  {
+    "type": "TRIM",
+    "named": false
+  },
+  {
+    "type": "TRUE",
+    "named": false
+  },
+  {
+    "type": "TYPE",
+    "named": false
+  },
+  {
+    "type": "VARIABLE",
+    "named": false
+  },
+  {
+    "type": "VARMEM",
+    "named": false
+  },
+  {
+    "type": "VARPOI",
+    "named": false
+  },
+  {
+    "type": "VE",
+    "named": false
+  },
+  {
+    "type": "VEDOT",
+    "named": false
+  },
+  {
+    "type": "VELGET",
+    "named": false
+  },
+  {
+    "type": "VELSET",
+    "named": false
+  },
+  {
+    "type": "VEUNIT",
+    "named": false
+  },
+  {
+    "type": "VEZERO",
+    "named": false
+  },
+  {
+    "type": "VMAX",
+    "named": false
+  },
+  {
+    "type": "VMIN",
+    "named": false
+  },
+  {
+    "type": "WERF",
+    "named": false
+  },
+  {
+    "type": "WHILE",
+    "named": false
+  },
+  {
+    "type": "WRITE",
+    "named": false
+  },
+  {
+    "type": "WRITEB",
+    "named": false
+  },
+  {
+    "type": "WRITEM",
+    "named": false
+  },
+  {
     "type": "[",
     "named": false
   },
@@ -166,12 +683,532 @@
     "named": false
   },
   {
+    "type": "abs",
+    "named": false
+  },
+  {
+    "type": "acos",
+    "named": false
+  },
+  {
+    "type": "argget",
+    "named": false
+  },
+  {
+    "type": "asin",
+    "named": false
+  },
+  {
+    "type": "atan",
+    "named": false
+  },
+  {
+    "type": "begin",
+    "named": false
+  },
+  {
+    "type": "break",
+    "named": false
+  },
+  {
+    "type": "cd",
+    "named": false
+  },
+  {
+    "type": "closef",
+    "named": false
+  },
+  {
+    "type": "cm",
+    "named": false
+  },
+  {
+    "type": "cmplx",
+    "named": false
+  },
+  {
+    "type": "conj",
+    "named": false
+  },
+  {
+    "type": "cons",
+    "named": false
+  },
+  {
+    "type": "cos",
+    "named": false
+  },
+  {
+    "type": "cosh",
+    "named": false
+  },
+  {
+    "type": "cpusec",
+    "named": false
+  },
+  {
+    "type": "da",
+    "named": false
+  },
+  {
+    "type": "dacliw",
+    "named": false
+  },
+  {
+    "type": "dacqlc",
+    "named": false
+  },
+  {
+    "type": "dader",
+    "named": false
+  },
+  {
+    "type": "dadiu",
+    "named": false
+  },
+  {
+    "type": "dadmu",
+    "named": false
+  },
+  {
+    "type": "daeps",
+    "named": false
+  },
+  {
+    "type": "daest",
+    "named": false
+  },
+  {
+    "type": "daini",
+    "named": false
+  },
+  {
+    "type": "daint",
+    "named": false
+  },
+  {
+    "type": "danoro",
+    "named": false
+  },
+  {
+    "type": "danors",
+    "named": false
+  },
+  {
+    "type": "danot",
+    "named": false
+  },
+  {
+    "type": "dapea",
+    "named": false
+  },
+  {
+    "type": "dapee",
+    "named": false
+  },
+  {
+    "type": "dapep",
+    "named": false
+  },
+  {
+    "type": "dapew",
+    "named": false
+  },
+  {
+    "type": "daplu",
+    "named": false
+  },
+  {
+    "type": "daprv",
+    "named": false
+  },
+  {
+    "type": "darea",
+    "named": false
+  },
+  {
+    "type": "darev",
+    "named": false
+  },
+  {
+    "type": "dascl",
+    "named": false
+  },
+  {
+    "type": "dasgn",
+    "named": false
+  },
+  {
+    "type": "datrn",
+    "named": false
+  },
+  {
+    "type": "else",
+    "named": false
+  },
+  {
+    "type": "elseif",
+    "named": false
+  },
+  {
+    "type": "end",
+    "named": false
+  },
+  {
+    "type": "endfit",
+    "named": false
+  },
+  {
+    "type": "endfunction",
+    "named": false
+  },
+  {
+    "type": "endif",
+    "named": false
+  },
+  {
+    "type": "endloop",
+    "named": false
+  },
+  {
+    "type": "endploop",
+    "named": false
+  },
+  {
+    "type": "endprocedure",
+    "named": false
+  },
+  {
+    "type": "endwhile",
+    "named": false
+  },
+  {
+    "type": "erf",
+    "named": false
+  },
+  {
+    "type": "exp",
+    "named": false
+  },
+  {
+    "type": "false",
+    "named": false
+  },
+  {
+    "type": "fit",
+    "named": false
+  },
+  {
+    "type": "function",
+    "named": false
+  },
+  {
     "type": "identifier",
     "named": true
   },
   {
+    "type": "if",
+    "named": false
+  },
+  {
+    "type": "imag",
+    "named": false
+  },
+  {
+    "type": "imunit",
+    "named": false
+  },
+  {
+    "type": "int",
+    "named": false
+  },
+  {
+    "type": "isrt",
+    "named": false
+  },
+  {
+    "type": "isrt3",
+    "named": false
+  },
+  {
+    "type": "lcd",
+    "named": false
+  },
+  {
+    "type": "lcm",
+    "named": false
+  },
+  {
+    "type": "lda",
+    "named": false
+  },
+  {
+    "type": "ldet",
+    "named": false
+  },
+  {
+    "type": "length",
+    "named": false
+  },
+  {
+    "type": "lev",
+    "named": false
+  },
+  {
+    "type": "linv",
+    "named": false
+  },
+  {
+    "type": "llo",
+    "named": false
+  },
+  {
+    "type": "lo",
+    "named": false
+  },
+  {
+    "type": "log",
+    "named": false
+  },
+  {
+    "type": "loop",
+    "named": false
+  },
+  {
+    "type": "lre",
+    "named": false
+  },
+  {
+    "type": "lsline",
+    "named": false
+  },
+  {
+    "type": "lst",
+    "named": false
+  },
+  {
+    "type": "ltrim",
+    "named": false
+  },
+  {
+    "type": "lve",
+    "named": false
+  },
+  {
+    "type": "mblock",
+    "named": false
+  },
+  {
+    "type": "memdpv",
+    "named": false
+  },
+  {
+    "type": "memfre",
+    "named": false
+  },
+  {
+    "type": "mtree",
+    "named": false
+  },
+  {
+    "type": "nint",
+    "named": false
+  },
+  {
+    "type": "norm",
+    "named": false
+  },
+  {
     "type": "number",
     "named": true
+  },
+  {
+    "type": "openf",
+    "named": false
+  },
+  {
+    "type": "openfb",
+    "named": false
+  },
+  {
+    "type": "os",
+    "named": false
+  },
+  {
+    "type": "ploop",
+    "named": false
+  },
+  {
+    "type": "pnpro",
+    "named": false
+  },
+  {
+    "type": "polval",
+    "named": false
+  },
+  {
+    "type": "procedure",
+    "named": false
+  },
+  {
+    "type": "pwtime",
+    "named": false
+  },
+  {
+    "type": "quit",
+    "named": false
+  },
+  {
+    "type": "re",
+    "named": false
+  },
+  {
+    "type": "read",
+    "named": false
+  },
+  {
+    "type": "readb",
+    "named": false
+  },
+  {
+    "type": "readm",
+    "named": false
+  },
+  {
+    "type": "real",
+    "named": false
+  },
+  {
+    "type": "recst",
+    "named": false
+  },
+  {
+    "type": "reran",
+    "named": false
+  },
+  {
+    "type": "rkco",
+    "named": false
+  },
+  {
+    "type": "scrlen",
+    "named": false
+  },
+  {
+    "type": "sin",
+    "named": false
+  },
+  {
+    "type": "sinh",
+    "named": false
+  },
+  {
+    "type": "sleepm",
+    "named": false
+  },
+  {
+    "type": "sqr",
+    "named": false
+  },
+  {
+    "type": "sqrt",
+    "named": false
+  },
+  {
+    "type": "st",
+    "named": false
+  },
+  {
+    "type": "stcre",
+    "named": false
+  },
+  {
+    "type": "substr",
+    "named": false
+  },
+  {
+    "type": "tan",
+    "named": false
+  },
+  {
+    "type": "tanh",
+    "named": false
+  },
+  {
+    "type": "trim",
+    "named": false
+  },
+  {
+    "type": "true",
+    "named": false
+  },
+  {
+    "type": "type",
+    "named": false
+  },
+  {
+    "type": "variable",
+    "named": false
+  },
+  {
+    "type": "varmem",
+    "named": false
+  },
+  {
+    "type": "varpoi",
+    "named": false
+  },
+  {
+    "type": "ve",
+    "named": false
+  },
+  {
+    "type": "vedot",
+    "named": false
+  },
+  {
+    "type": "velget",
+    "named": false
+  },
+  {
+    "type": "velset",
+    "named": false
+  },
+  {
+    "type": "veunit",
+    "named": false
+  },
+  {
+    "type": "vezero",
+    "named": false
+  },
+  {
+    "type": "vmax",
+    "named": false
+  },
+  {
+    "type": "vmin",
+    "named": false
+  },
+  {
+    "type": "werf",
+    "named": false
+  },
+  {
+    "type": "while",
+    "named": false
+  },
+  {
+    "type": "write",
+    "named": false
+  },
+  {
+    "type": "writeb",
+    "named": false
+  },
+  {
+    "type": "writem",
+    "named": false
   },
   {
     "type": "{",
