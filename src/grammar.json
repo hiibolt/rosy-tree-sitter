@@ -81,3265 +81,1714 @@
       ]
     },
     "keyword": {
-      "type": "TOKEN",
-      "content": {
-        "type": "PREC",
-        "value": 2,
-        "content": {
+      "type": "CHOICE",
+      "members": [
+        {
           "type": "CHOICE",
           "members": [
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[gG]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[gG]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[bB]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[gG]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[bB]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[kK]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[fF]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[uU]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[wW]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[qQ]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[uU]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[uU]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[wW]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[uU]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[vV]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[vV]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[gG]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[fF]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[fF]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[fF]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[uU]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[fF]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[uU]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[wW]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[hH]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[fF]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[fF]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[uU]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[fF]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[uU]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[vV]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[vV]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[bB]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[kK]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[vV]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[fF]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[fF]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[fF]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[bB]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[vV]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[uU]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[wW]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[qQ]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[uU]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[bB]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[kK]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[uU]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[bB]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[vV]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[bB]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[vV]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[vV]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[gG]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[vV]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[vV]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[uU]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[vV]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[zZ]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[wW]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[hH]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[wW]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[wW]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[bB]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[wW]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                }
-              ]
+              "type": "STRING",
+              "value": "ARGGET"
+            },
+            {
+              "type": "STRING",
+              "value": "argget"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "BEGIN"
+            },
+            {
+              "type": "STRING",
+              "value": "begin"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "BREAK"
+            },
+            {
+              "type": "STRING",
+              "value": "break"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "CLOSEF"
+            },
+            {
+              "type": "STRING",
+              "value": "closef"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "CPUSEC"
+            },
+            {
+              "type": "STRING",
+              "value": "cpusec"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DACLIW"
+            },
+            {
+              "type": "STRING",
+              "value": "dacliw"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DACQLC"
+            },
+            {
+              "type": "STRING",
+              "value": "dacqlc"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DADER"
+            },
+            {
+              "type": "STRING",
+              "value": "dader"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DADIU"
+            },
+            {
+              "type": "STRING",
+              "value": "dadiu"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DADMU"
+            },
+            {
+              "type": "STRING",
+              "value": "dadmu"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DAEPS"
+            },
+            {
+              "type": "STRING",
+              "value": "daeps"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DAEST"
+            },
+            {
+              "type": "STRING",
+              "value": "daest"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DAINI"
+            },
+            {
+              "type": "STRING",
+              "value": "daini"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DAINT"
+            },
+            {
+              "type": "STRING",
+              "value": "daint"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DANORO"
+            },
+            {
+              "type": "STRING",
+              "value": "danoro"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DANORS"
+            },
+            {
+              "type": "STRING",
+              "value": "danors"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DANOT"
+            },
+            {
+              "type": "STRING",
+              "value": "danot"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DAPEA"
+            },
+            {
+              "type": "STRING",
+              "value": "dapea"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DAPEE"
+            },
+            {
+              "type": "STRING",
+              "value": "dapee"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DAPEP"
+            },
+            {
+              "type": "STRING",
+              "value": "dapep"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DAPEW"
+            },
+            {
+              "type": "STRING",
+              "value": "dapew"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DAPLU"
+            },
+            {
+              "type": "STRING",
+              "value": "daplu"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DAPRV"
+            },
+            {
+              "type": "STRING",
+              "value": "daprv"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DAREA"
+            },
+            {
+              "type": "STRING",
+              "value": "darea"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DAREV"
+            },
+            {
+              "type": "STRING",
+              "value": "darev"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DASCL"
+            },
+            {
+              "type": "STRING",
+              "value": "dascl"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DASGN"
+            },
+            {
+              "type": "STRING",
+              "value": "dasgn"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DATRN"
+            },
+            {
+              "type": "STRING",
+              "value": "datrn"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "ELSE"
+            },
+            {
+              "type": "STRING",
+              "value": "else"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "ELSEIF"
+            },
+            {
+              "type": "STRING",
+              "value": "elseif"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "END"
+            },
+            {
+              "type": "STRING",
+              "value": "end"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "ENDFIT"
+            },
+            {
+              "type": "STRING",
+              "value": "endfit"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "ENDFUNCTION"
+            },
+            {
+              "type": "STRING",
+              "value": "endfunction"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "ENDIF"
+            },
+            {
+              "type": "STRING",
+              "value": "endif"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "ENDLOOP"
+            },
+            {
+              "type": "STRING",
+              "value": "endloop"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "ENDPLOOP"
+            },
+            {
+              "type": "STRING",
+              "value": "endploop"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "ENDPROCEDURE"
+            },
+            {
+              "type": "STRING",
+              "value": "endprocedure"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "ENDWHILE"
+            },
+            {
+              "type": "STRING",
+              "value": "endwhile"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "FIT"
+            },
+            {
+              "type": "STRING",
+              "value": "fit"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "FUNCTION"
+            },
+            {
+              "type": "STRING",
+              "value": "function"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "IF"
+            },
+            {
+              "type": "STRING",
+              "value": "if"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "IMUNIT"
+            },
+            {
+              "type": "STRING",
+              "value": "imunit"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "LDET"
+            },
+            {
+              "type": "STRING",
+              "value": "ldet"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "LEV"
+            },
+            {
+              "type": "STRING",
+              "value": "lev"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "LINV"
+            },
+            {
+              "type": "STRING",
+              "value": "linv"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "LOOP"
+            },
+            {
+              "type": "STRING",
+              "value": "loop"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "LSLINE"
+            },
+            {
+              "type": "STRING",
+              "value": "lsline"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "MBLOCK"
+            },
+            {
+              "type": "STRING",
+              "value": "mblock"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "MEMDPV"
+            },
+            {
+              "type": "STRING",
+              "value": "memdpv"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "MEMFRE"
+            },
+            {
+              "type": "STRING",
+              "value": "memfre"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "MTREE"
+            },
+            {
+              "type": "STRING",
+              "value": "mtree"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "OPENF"
+            },
+            {
+              "type": "STRING",
+              "value": "openf"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "OPENFB"
+            },
+            {
+              "type": "STRING",
+              "value": "openfb"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "OS"
+            },
+            {
+              "type": "STRING",
+              "value": "os"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "PLOOP"
+            },
+            {
+              "type": "STRING",
+              "value": "ploop"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "PNPRO"
+            },
+            {
+              "type": "STRING",
+              "value": "pnpro"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "POLVAL"
+            },
+            {
+              "type": "STRING",
+              "value": "polval"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "PROCEDURE"
+            },
+            {
+              "type": "STRING",
+              "value": "procedure"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "PWTIME"
+            },
+            {
+              "type": "STRING",
+              "value": "pwtime"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "QUIT"
+            },
+            {
+              "type": "STRING",
+              "value": "quit"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "READ"
+            },
+            {
+              "type": "STRING",
+              "value": "read"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "READB"
+            },
+            {
+              "type": "STRING",
+              "value": "readb"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "READM"
+            },
+            {
+              "type": "STRING",
+              "value": "readm"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "RECST"
+            },
+            {
+              "type": "STRING",
+              "value": "recst"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "RERAN"
+            },
+            {
+              "type": "STRING",
+              "value": "reran"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "RKCO"
+            },
+            {
+              "type": "STRING",
+              "value": "rkco"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "SCRLEN"
+            },
+            {
+              "type": "STRING",
+              "value": "scrlen"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "SLEEPM"
+            },
+            {
+              "type": "STRING",
+              "value": "sleepm"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "STCRE"
+            },
+            {
+              "type": "STRING",
+              "value": "stcre"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "SUBSTR"
+            },
+            {
+              "type": "STRING",
+              "value": "substr"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "VARIABLE"
+            },
+            {
+              "type": "STRING",
+              "value": "variable"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "VEDOT"
+            },
+            {
+              "type": "STRING",
+              "value": "vedot"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "VELGET"
+            },
+            {
+              "type": "STRING",
+              "value": "velget"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "VELSET"
+            },
+            {
+              "type": "STRING",
+              "value": "velset"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "VEUNIT"
+            },
+            {
+              "type": "STRING",
+              "value": "veunit"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "VEZERO"
+            },
+            {
+              "type": "STRING",
+              "value": "vezero"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "WHILE"
+            },
+            {
+              "type": "STRING",
+              "value": "while"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "WRITE"
+            },
+            {
+              "type": "STRING",
+              "value": "write"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "WRITEB"
+            },
+            {
+              "type": "STRING",
+              "value": "writeb"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "WRITEM"
+            },
+            {
+              "type": "STRING",
+              "value": "writem"
             }
           ]
         }
-      }
+      ]
     },
     "builtin_function": {
-      "type": "TOKEN",
-      "content": {
-        "type": "PREC",
-        "value": 2,
-        "content": {
+      "type": "CHOICE",
+      "members": [
+        {
           "type": "CHOICE",
           "members": [
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[bB]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                }
-              ]
+              "type": "STRING",
+              "value": "ABS"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                }
-              ]
+              "type": "STRING",
+              "value": "abs"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "ACOS"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                }
-              ]
+              "type": "STRING",
+              "value": "acos"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "ASIN"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                }
-              ]
+              "type": "STRING",
+              "value": "asin"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "ATAN"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                }
-              ]
+              "type": "STRING",
+              "value": "atan"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "CMPLX"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                }
-              ]
+              "type": "STRING",
+              "value": "cmplx"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "CONJ"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[xX]"
-                }
-              ]
+              "type": "STRING",
+              "value": "conj"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "CONS"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[jJ]"
-                }
-              ]
+              "type": "STRING",
+              "value": "cons"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "COS"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                }
-              ]
+              "type": "STRING",
+              "value": "cos"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "COSH"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                }
-              ]
+              "type": "STRING",
+              "value": "cosh"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "ERF"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[hH]"
-                }
-              ]
+              "type": "STRING",
+              "value": "erf"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "EXP"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                }
-              ]
+              "type": "STRING",
+              "value": "exp"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "IMAG"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[fF]"
-                }
-              ]
+              "type": "STRING",
+              "value": "imag"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "INT"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[xX]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                }
-              ]
+              "type": "STRING",
+              "value": "int"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "ISRT"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[gG]"
-                }
-              ]
+              "type": "STRING",
+              "value": "isrt"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "ISRT3"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                }
-              ]
+              "type": "STRING",
+              "value": "isrt3"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "LCD"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                }
-              ]
+              "type": "STRING",
+              "value": "lcd"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "LCM"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                },
-                {
-                  "type": "STRING",
-                  "value": "3"
-                }
-              ]
+              "type": "STRING",
+              "value": "lcm"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "LDA"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                }
-              ]
+              "type": "STRING",
+              "value": "lda"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "LENGTH"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                }
-              ]
+              "type": "STRING",
+              "value": "length"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "LLO"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                }
-              ]
+              "type": "STRING",
+              "value": "llo"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "LOG"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[gG]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[hH]"
-                }
-              ]
+              "type": "STRING",
+              "value": "log"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "LRE"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                }
-              ]
+              "type": "STRING",
+              "value": "lre"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "LST"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                }
-              ]
+              "type": "STRING",
+              "value": "lst"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "LTRIM"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[gG]"
-                }
-              ]
+              "type": "STRING",
+              "value": "ltrim"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "LVE"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                }
-              ]
+              "type": "STRING",
+              "value": "lve"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "NINT"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                }
-              ]
+              "type": "STRING",
+              "value": "nint"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "NORM"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                }
-              ]
+              "type": "STRING",
+              "value": "norm"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "REAL"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[vV]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                }
-              ]
+              "type": "STRING",
+              "value": "real"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "SIN"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                }
-              ]
+              "type": "STRING",
+              "value": "sin"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "SINH"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                }
-              ]
+              "type": "STRING",
+              "value": "sinh"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "SQR"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                }
-              ]
+              "type": "STRING",
+              "value": "sqr"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "SQRT"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                }
-              ]
+              "type": "STRING",
+              "value": "sqrt"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "TAN"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                }
-              ]
+              "type": "STRING",
+              "value": "tan"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "TANH"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[hH]"
-                }
-              ]
+              "type": "STRING",
+              "value": "tanh"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "TRIM"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[qQ]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                }
-              ]
+              "type": "STRING",
+              "value": "trim"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "TYPE"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[qQ]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                }
-              ]
+              "type": "STRING",
+              "value": "type"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "VARMEM"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                }
-              ]
+              "type": "STRING",
+              "value": "varmem"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "VARPOI"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                }
-              ]
+              "type": "STRING",
+              "value": "varpoi"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "VMAX"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[hH]"
-                }
-              ]
+              "type": "STRING",
+              "value": "vmax"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "VMIN"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                }
-              ]
+              "type": "STRING",
+              "value": "vmin"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "WERF"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[yY]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[vV]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[vV]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[pP]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[vV]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[vV]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[xX]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[vV]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[iI]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[nN]"
-                }
-              ]
-            },
-            {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[wW]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[fF]"
-                }
-              ]
+              "type": "STRING",
+              "value": "werf"
             }
           ]
         }
-      }
+      ]
     },
     "type_name": {
-      "type": "TOKEN",
-      "content": {
-        "type": "PREC",
-        "value": 2,
-        "content": {
+      "type": "CHOICE",
+      "members": [
+        {
           "type": "CHOICE",
           "members": [
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                }
-              ]
+              "type": "STRING",
+              "value": "RE"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                }
-              ]
+              "type": "STRING",
+              "value": "re"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "ST"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[oO]"
-                }
-              ]
+              "type": "STRING",
+              "value": "st"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "LO"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[mM]"
-                }
-              ]
+              "type": "STRING",
+              "value": "lo"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "CM"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[vV]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                }
-              ]
+              "type": "STRING",
+              "value": "cm"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "VE"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                }
-              ]
+              "type": "STRING",
+              "value": "ve"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "DA"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[cC]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[dD]"
-                }
-              ]
+              "type": "STRING",
+              "value": "da"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "CD"
+            },
+            {
+              "type": "STRING",
+              "value": "cd"
             }
           ]
         }
-      }
+      ]
     },
     "boolean": {
-      "type": "TOKEN",
-      "content": {
-        "type": "PREC",
-        "value": 2,
-        "content": {
+      "type": "CHOICE",
+      "members": [
+        {
           "type": "CHOICE",
           "members": [
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[tT]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[rR]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[uU]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                }
-              ]
+              "type": "STRING",
+              "value": "TRUE"
             },
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[fF]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[aA]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[lL]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[sS]"
-                },
-                {
-                  "type": "PATTERN",
-                  "value": "[eE]"
-                }
-              ]
+              "type": "STRING",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "FALSE"
+            },
+            {
+              "type": "STRING",
+              "value": "false"
             }
           ]
         }
-      }
+      ]
     },
     "number": {
       "type": "PATTERN",
