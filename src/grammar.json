@@ -117,6 +117,14 @@
         },
         {
           "type": "STRING",
+          "value": "CDFLO"
+        },
+        {
+          "type": "STRING",
+          "value": "cdflo"
+        },
+        {
+          "type": "STRING",
           "value": "CLOSEF"
         },
         {
@@ -138,6 +146,14 @@
         {
           "type": "STRING",
           "value": "dacliw"
+        },
+        {
+          "type": "STRING",
+          "value": "DACODE"
+        },
+        {
+          "type": "STRING",
+          "value": "dacode"
         },
         {
           "type": "STRING",
@@ -181,11 +197,51 @@
         },
         {
           "type": "STRING",
+          "value": "DAEPSM"
+        },
+        {
+          "type": "STRING",
+          "value": "daepsm"
+        },
+        {
+          "type": "STRING",
           "value": "DAEST"
         },
         {
           "type": "STRING",
           "value": "daest"
+        },
+        {
+          "type": "STRING",
+          "value": "DAFILT"
+        },
+        {
+          "type": "STRING",
+          "value": "dafilt"
+        },
+        {
+          "type": "STRING",
+          "value": "DAFLO"
+        },
+        {
+          "type": "STRING",
+          "value": "daflo"
+        },
+        {
+          "type": "STRING",
+          "value": "DAFSET"
+        },
+        {
+          "type": "STRING",
+          "value": "dafset"
+        },
+        {
+          "type": "STRING",
+          "value": "DAGMD"
+        },
+        {
+          "type": "STRING",
+          "value": "dagmd"
         },
         {
           "type": "STRING",
@@ -226,6 +282,14 @@
         {
           "type": "STRING",
           "value": "danot"
+        },
+        {
+          "type": "STRING",
+          "value": "DANOTW"
+        },
+        {
+          "type": "STRING",
+          "value": "danotw"
         },
         {
           "type": "STRING",
@@ -274,6 +338,14 @@
         {
           "type": "STRING",
           "value": "daprv"
+        },
+        {
+          "type": "STRING",
+          "value": "DARAN"
+        },
+        {
+          "type": "STRING",
+          "value": "daran"
         },
         {
           "type": "STRING",
@@ -394,6 +466,14 @@
         {
           "type": "STRING",
           "value": "endwhile"
+        },
+        {
+          "type": "STRING",
+          "value": "EPSMIN"
+        },
+        {
+          "type": "STRING",
+          "value": "epsmin"
         },
         {
           "type": "STRING",

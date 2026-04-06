@@ -187,6 +187,10 @@
     "named": false
   },
   {
+    "type": "CDFLO",
+    "named": false
+  },
+  {
     "type": "CLOSEF",
     "named": false
   },
@@ -227,6 +231,10 @@
     "named": false
   },
   {
+    "type": "DACODE",
+    "named": false
+  },
+  {
     "type": "DACQLC",
     "named": false
   },
@@ -247,7 +255,27 @@
     "named": false
   },
   {
+    "type": "DAEPSM",
+    "named": false
+  },
+  {
     "type": "DAEST",
+    "named": false
+  },
+  {
+    "type": "DAFILT",
+    "named": false
+  },
+  {
+    "type": "DAFLO",
+    "named": false
+  },
+  {
+    "type": "DAFSET",
+    "named": false
+  },
+  {
+    "type": "DAGMD",
     "named": false
   },
   {
@@ -268,6 +296,10 @@
   },
   {
     "type": "DANOT",
+    "named": false
+  },
+  {
+    "type": "DANOTW",
     "named": false
   },
   {
@@ -292,6 +324,10 @@
   },
   {
     "type": "DAPRV",
+    "named": false
+  },
+  {
+    "type": "DARAN",
     "named": false
   },
   {
@@ -352,6 +388,10 @@
   },
   {
     "type": "ENDWHILE",
+    "named": false
+  },
+  {
+    "type": "EPSMIN",
     "named": false
   },
   {
@@ -751,6 +791,10 @@
     "named": false
   },
   {
+    "type": "cdflo",
+    "named": false
+  },
+  {
     "type": "closef",
     "named": false
   },
@@ -791,6 +835,10 @@
     "named": false
   },
   {
+    "type": "dacode",
+    "named": false
+  },
+  {
     "type": "dacqlc",
     "named": false
   },
@@ -811,7 +859,27 @@
     "named": false
   },
   {
+    "type": "daepsm",
+    "named": false
+  },
+  {
     "type": "daest",
+    "named": false
+  },
+  {
+    "type": "dafilt",
+    "named": false
+  },
+  {
+    "type": "daflo",
+    "named": false
+  },
+  {
+    "type": "dafset",
+    "named": false
+  },
+  {
+    "type": "dagmd",
     "named": false
   },
   {
@@ -832,6 +900,10 @@
   },
   {
     "type": "danot",
+    "named": false
+  },
+  {
+    "type": "danotw",
     "named": false
   },
   {
@@ -856,6 +928,10 @@
   },
   {
     "type": "daprv",
+    "named": false
+  },
+  {
+    "type": "daran",
     "named": false
   },
   {
@@ -916,6 +992,10 @@
   },
   {
     "type": "endwhile",
+    "named": false
+  },
+  {
+    "type": "epsmin",
     "named": false
   },
   {
