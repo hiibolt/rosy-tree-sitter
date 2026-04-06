@@ -117,11 +117,43 @@
         },
         {
           "type": "STRING",
+          "value": "CDF2"
+        },
+        {
+          "type": "STRING",
+          "value": "cdf2"
+        },
+        {
+          "type": "STRING",
           "value": "CDFLO"
         },
         {
           "type": "STRING",
           "value": "cdflo"
+        },
+        {
+          "type": "STRING",
+          "value": "CDNF"
+        },
+        {
+          "type": "STRING",
+          "value": "cdnf"
+        },
+        {
+          "type": "STRING",
+          "value": "CDNFDA"
+        },
+        {
+          "type": "STRING",
+          "value": "cdnfda"
+        },
+        {
+          "type": "STRING",
+          "value": "CDNFDS"
+        },
+        {
+          "type": "STRING",
+          "value": "cdnfds"
         },
         {
           "type": "STRING",
@@ -290,6 +322,14 @@
         {
           "type": "STRING",
           "value": "danotw"
+        },
+        {
+          "type": "STRING",
+          "value": "DANOW"
+        },
+        {
+          "type": "STRING",
+          "value": "danow"
         },
         {
           "type": "STRING",

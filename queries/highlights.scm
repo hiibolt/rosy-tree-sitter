@@ -128,8 +128,16 @@
 "begin" @keyword
 "BREAK" @keyword
 "break" @keyword
+"CDF2" @keyword
+"cdf2" @keyword
 "CDFLO" @keyword
 "cdflo" @keyword
+"CDNF" @keyword
+"cdnf" @keyword
+"CDNFDA" @keyword
+"cdnfda" @keyword
+"CDNFDS" @keyword
+"cdnfds" @keyword
 "CLOSEF" @keyword
 "closef" @keyword
 "CPUSEC" @keyword
@@ -172,6 +180,8 @@
 "danot" @keyword
 "DANOTW" @keyword
 "danotw" @keyword
+"DANOW" @keyword
+"danow" @keyword
 "DAPEA" @keyword
 "dapea" @keyword
 "DAPEE" @keyword

@@ -187,7 +187,23 @@
     "named": false
   },
   {
+    "type": "CDF2",
+    "named": false
+  },
+  {
     "type": "CDFLO",
+    "named": false
+  },
+  {
+    "type": "CDNF",
+    "named": false
+  },
+  {
+    "type": "CDNFDA",
+    "named": false
+  },
+  {
+    "type": "CDNFDS",
     "named": false
   },
   {
@@ -300,6 +316,10 @@
   },
   {
     "type": "DANOTW",
+    "named": false
+  },
+  {
+    "type": "DANOW",
     "named": false
   },
   {
@@ -791,7 +811,23 @@
     "named": false
   },
   {
+    "type": "cdf2",
+    "named": false
+  },
+  {
     "type": "cdflo",
+    "named": false
+  },
+  {
+    "type": "cdnf",
+    "named": false
+  },
+  {
+    "type": "cdnfda",
+    "named": false
+  },
+  {
+    "type": "cdnfds",
     "named": false
   },
   {
@@ -904,6 +940,10 @@
   },
   {
     "type": "danotw",
+    "named": false
+  },
+  {
+    "type": "danow",
     "named": false
   },
   {
