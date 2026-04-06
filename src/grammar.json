@@ -557,6 +557,14 @@
         },
         {
           "type": "STRING",
+          "value": "INCLUDE"
+        },
+        {
+          "type": "STRING",
+          "value": "include"
+        },
+        {
+          "type": "STRING",
           "value": "INTPOL"
         },
         {

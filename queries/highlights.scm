@@ -240,6 +240,8 @@
 "if" @keyword
 "IMUNIT" @keyword
 "imunit" @keyword
+"INCLUDE" @keyword
+"include" @keyword
 "INTPOL" @keyword
 "intpol" @keyword
 "LDET" @keyword

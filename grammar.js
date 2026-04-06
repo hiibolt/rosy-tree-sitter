@@ -86,6 +86,7 @@ module.exports = grammar({
       'FUNCTION', 'function',
       'IF', 'if',
       'IMUNIT', 'imunit',
+      'INCLUDE', 'include',
       'INTPOL', 'intpol',
       'LDET', 'ldet',
       'LEV', 'lev',
