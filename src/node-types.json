@@ -171,6 +171,10 @@
     "named": false
   },
   {
+    "type": "BACKF",
+    "named": false
+  },
+  {
     "type": "BEGIN",
     "named": false
   },
@@ -387,6 +391,10 @@
     "named": false
   },
   {
+    "type": "INTPOL",
+    "named": false
+  },
+  {
     "type": "ISRT",
     "named": false
   },
@@ -416,6 +424,10 @@
   },
   {
     "type": "LEV",
+    "named": false
+  },
+  {
+    "type": "LFALSE",
     "named": false
   },
   {
@@ -455,6 +467,10 @@
     "named": false
   },
   {
+    "type": "LTRUE",
+    "named": false
+  },
+  {
     "type": "LVE",
     "named": false
   },
@@ -463,11 +479,19 @@
     "named": false
   },
   {
+    "type": "MEMALL",
+    "named": false
+  },
+  {
     "type": "MEMDPV",
     "named": false
   },
   {
     "type": "MEMFRE",
+    "named": false
+  },
+  {
+    "type": "MEMWRT",
     "named": false
   },
   {
@@ -535,6 +559,10 @@
     "named": false
   },
   {
+    "type": "READS",
+    "named": false
+  },
+  {
     "type": "REAL",
     "named": false
   },
@@ -544,6 +572,10 @@
   },
   {
     "type": "RERAN",
+    "named": false
+  },
+  {
+    "type": "REWF",
     "named": false
   },
   {
@@ -700,6 +732,10 @@
   },
   {
     "type": "atan",
+    "named": false
+  },
+  {
+    "type": "backf",
     "named": false
   },
   {
@@ -923,6 +959,10 @@
     "named": false
   },
   {
+    "type": "intpol",
+    "named": false
+  },
+  {
     "type": "isrt",
     "named": false
   },
@@ -952,6 +992,10 @@
   },
   {
     "type": "lev",
+    "named": false
+  },
+  {
+    "type": "lfalse",
     "named": false
   },
   {
@@ -991,6 +1035,10 @@
     "named": false
   },
   {
+    "type": "ltrue",
+    "named": false
+  },
+  {
     "type": "lve",
     "named": false
   },
@@ -999,11 +1047,19 @@
     "named": false
   },
   {
+    "type": "memall",
+    "named": false
+  },
+  {
     "type": "memdpv",
     "named": false
   },
   {
     "type": "memfre",
+    "named": false
+  },
+  {
+    "type": "memwrt",
     "named": false
   },
   {
@@ -1075,6 +1131,10 @@
     "named": false
   },
   {
+    "type": "reads",
+    "named": false
+  },
+  {
     "type": "real",
     "named": false
   },
@@ -1084,6 +1144,10 @@
   },
   {
     "type": "reran",
+    "named": false
+  },
+  {
+    "type": "rewf",
     "named": false
   },
   {

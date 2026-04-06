@@ -93,6 +93,14 @@
         },
         {
           "type": "STRING",
+          "value": "BACKF"
+        },
+        {
+          "type": "STRING",
+          "value": "backf"
+        },
+        {
+          "type": "STRING",
           "value": "BEGIN"
         },
         {
@@ -421,6 +429,14 @@
         },
         {
           "type": "STRING",
+          "value": "INTPOL"
+        },
+        {
+          "type": "STRING",
+          "value": "intpol"
+        },
+        {
+          "type": "STRING",
           "value": "LDET"
         },
         {
@@ -434,6 +450,14 @@
         {
           "type": "STRING",
           "value": "lev"
+        },
+        {
+          "type": "STRING",
+          "value": "LFALSE"
+        },
+        {
+          "type": "STRING",
+          "value": "lfalse"
         },
         {
           "type": "STRING",
@@ -461,11 +485,27 @@
         },
         {
           "type": "STRING",
+          "value": "LTRUE"
+        },
+        {
+          "type": "STRING",
+          "value": "ltrue"
+        },
+        {
+          "type": "STRING",
           "value": "MBLOCK"
         },
         {
           "type": "STRING",
           "value": "mblock"
+        },
+        {
+          "type": "STRING",
+          "value": "MEMALL"
+        },
+        {
+          "type": "STRING",
+          "value": "memall"
         },
         {
           "type": "STRING",
@@ -482,6 +522,14 @@
         {
           "type": "STRING",
           "value": "memfre"
+        },
+        {
+          "type": "STRING",
+          "value": "MEMWRT"
+        },
+        {
+          "type": "STRING",
+          "value": "memwrt"
         },
         {
           "type": "STRING",
@@ -589,6 +637,14 @@
         },
         {
           "type": "STRING",
+          "value": "READS"
+        },
+        {
+          "type": "STRING",
+          "value": "reads"
+        },
+        {
+          "type": "STRING",
           "value": "RECST"
         },
         {
@@ -602,6 +658,14 @@
         {
           "type": "STRING",
           "value": "reran"
+        },
+        {
+          "type": "STRING",
+          "value": "REWF"
+        },
+        {
+          "type": "STRING",
+          "value": "rewf"
         },
         {
           "type": "STRING",
