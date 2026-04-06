@@ -85,6 +85,14 @@
       "members": [
         {
           "type": "STRING",
+          "value": "AND"
+        },
+        {
+          "type": "STRING",
+          "value": "and"
+        },
+        {
+          "type": "STRING",
           "value": "ARGGET"
         },
         {
@@ -677,6 +685,14 @@
         },
         {
           "type": "STRING",
+          "value": "OR"
+        },
+        {
+          "type": "STRING",
+          "value": "or"
+        },
+        {
+          "type": "STRING",
           "value": "OS"
         },
         {
@@ -1127,6 +1143,14 @@
         {
           "type": "STRING",
           "value": "norm"
+        },
+        {
+          "type": "STRING",
+          "value": "POSITION"
+        },
+        {
+          "type": "STRING",
+          "value": "position"
         },
         {
           "type": "STRING",

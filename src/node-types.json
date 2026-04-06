@@ -159,6 +159,10 @@
     "named": false
   },
   {
+    "type": "AND",
+    "named": false
+  },
+  {
     "type": "ARGGET",
     "named": false
   },
@@ -575,6 +579,10 @@
     "named": false
   },
   {
+    "type": "OR",
+    "named": false
+  },
+  {
     "type": "OS",
     "named": false
   },
@@ -588,6 +596,10 @@
   },
   {
     "type": "POLVAL",
+    "named": false
+  },
+  {
+    "type": "POSITION",
     "named": false
   },
   {
@@ -780,6 +792,10 @@
   },
   {
     "type": "acos",
+    "named": false
+  },
+  {
+    "type": "and",
     "named": false
   },
   {
@@ -1207,6 +1223,10 @@
     "named": false
   },
   {
+    "type": "or",
+    "named": false
+  },
+  {
     "type": "os",
     "named": false
   },
@@ -1220,6 +1240,10 @@
   },
   {
     "type": "polval",
+    "named": false
+  },
+  {
+    "type": "position",
     "named": false
   },
   {

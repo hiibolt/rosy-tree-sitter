@@ -90,6 +90,8 @@
 "nint" @function.builtin
 "NORM" @function.builtin
 "norm" @function.builtin
+"POSITION" @function.builtin
+"position" @function.builtin
 "REAL" @function.builtin
 "real" @function.builtin
 "SIN" @function.builtin
@@ -120,6 +122,8 @@
 "werf" @function.builtin
 
 ; Keywords
+"AND" @keyword
+"and" @keyword
 "ARGGET" @keyword
 "argget" @keyword
 "BACKF" @keyword
@@ -268,6 +272,8 @@
 "openf" @keyword
 "OPENFB" @keyword
 "openfb" @keyword
+"OR" @keyword
+"or" @keyword
 "OS" @keyword
 "os" @keyword
 "PLOOP" @keyword

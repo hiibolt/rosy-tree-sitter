@@ -27,6 +27,7 @@ module.exports = grammar({
     comment: $ => seq('{', repeat(choice($.comment, /[^{}]+/)), '}'),
 
     _keyword: _ => choice(
+      'AND', 'and',
       'ARGGET', 'argget',
       'BACKF', 'backf',
       'BEGIN', 'begin',
@@ -101,6 +102,7 @@ module.exports = grammar({
       'MTREE', 'mtree',
       'OPENF', 'openf',
       'OPENFB', 'openfb',
+      'OR', 'or',
       'OS', 'os',
       'PLOOP', 'ploop',
       'PNPRO', 'pnpro',
@@ -160,6 +162,7 @@ module.exports = grammar({
       'LVE', 'lve',
       'NINT', 'nint',
       'NORM', 'norm',
+      'POSITION', 'position',
       'REAL', 'real',
       'SIN', 'sin',
       'SINH', 'sinh',
