@@ -119,6 +119,7 @@ module.exports = grammar({
       'RERAN', 'reran',
       'REWF', 'rewf',
       'RKCO', 'rkco',
+      'SAVE', 'save',
       'SCRLEN', 'scrlen',
       'SLEEPM', 'sleepm',
       'STCRE', 'stcre',

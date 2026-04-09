@@ -306,6 +306,8 @@
 "rewf" @keyword
 "RKCO" @keyword
 "rkco" @keyword
+"SAVE" @keyword
+"save" @keyword
 "SCRLEN" @keyword
 "scrlen" @keyword
 "SLEEPM" @keyword

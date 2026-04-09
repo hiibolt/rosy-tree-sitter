@@ -821,6 +821,14 @@
         },
         {
           "type": "STRING",
+          "value": "SAVE"
+        },
+        {
+          "type": "STRING",
+          "value": "save"
+        },
+        {
+          "type": "STRING",
           "value": "SCRLEN"
         },
         {
