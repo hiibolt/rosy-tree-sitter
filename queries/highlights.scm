@@ -144,6 +144,8 @@
 "cdnfds" @keyword
 "CLOSEF" @keyword
 "closef" @keyword
+"CPOLVAL" @keyword
+"cpolval" @keyword
 "CPUSEC" @keyword
 "cpusec" @keyword
 "DACLIW" @keyword

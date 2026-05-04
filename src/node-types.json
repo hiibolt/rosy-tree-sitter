@@ -239,6 +239,10 @@
     "named": false
   },
   {
+    "type": "CPOLVAL",
+    "named": false
+  },
+  {
     "type": "CPUSEC",
     "named": false
   },
@@ -880,6 +884,10 @@
   },
   {
     "type": "cosh",
+    "named": false
+  },
+  {
+    "type": "cpolval",
     "named": false
   },
   {

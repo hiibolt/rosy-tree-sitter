@@ -38,6 +38,7 @@ module.exports = grammar({
       'CDNFDA', 'cdnfda',
       'CDNFDS', 'cdnfds',
       'CLOSEF', 'closef',
+      'CPOLVAL', 'cpolval',
       'CPUSEC', 'cpusec',
       'DACLIW', 'dacliw',
       'DACODE', 'dacode',

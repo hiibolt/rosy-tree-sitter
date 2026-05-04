@@ -173,6 +173,14 @@
         },
         {
           "type": "STRING",
+          "value": "CPOLVAL"
+        },
+        {
+          "type": "STRING",
+          "value": "cpolval"
+        },
+        {
+          "type": "STRING",
           "value": "CPUSEC"
         },
         {
