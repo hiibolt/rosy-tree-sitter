@@ -270,6 +270,8 @@
 "memfre" @keyword
 "MEMWRT" @keyword
 "memwrt" @keyword
+"MODULE" @keyword
+"module" @keyword
 "MTREE" @keyword
 "mtree" @keyword
 "OPENF" @keyword

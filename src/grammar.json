@@ -677,6 +677,14 @@
         },
         {
           "type": "STRING",
+          "value": "MODULE"
+        },
+        {
+          "type": "STRING",
+          "value": "module"
+        },
+        {
+          "type": "STRING",
           "value": "MTREE"
         },
         {

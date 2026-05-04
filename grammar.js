@@ -101,6 +101,7 @@ module.exports = grammar({
       'MEMDPV', 'memdpv',
       'MEMFRE', 'memfre',
       'MEMWRT', 'memwrt',
+      'MODULE', 'module',
       'MTREE', 'mtree',
       'OPENF', 'openf',
       'OPENFB', 'openfb',

@@ -567,6 +567,10 @@
     "named": false
   },
   {
+    "type": "MODULE",
+    "named": false
+  },
+  {
     "type": "MTREE",
     "named": false
   },
@@ -1216,6 +1220,10 @@
   },
   {
     "type": "memwrt",
+    "named": false
+  },
+  {
+    "type": "module",
     "named": false
   },
   {
